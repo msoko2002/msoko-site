@@ -1,0 +1,55 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Max's Website  
+theme: "PaperMod"
+
+ShowReadingTime: false
+ShowShareButtons: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: false
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+disableSpecial1stPost: false
+disableScrollToTop: false
+comments: false
+hidemeta: false
+hideSummary: false
+showtoc: false
+tocopen: false
+
+
+params:
+  profileMode:
+      enabled: true
+      title: " " 
+      subtitle: "Welcome to Max Sokolova's Website :]"
+      imageUrl: "me-square.jpg" # optional
+      imageWidth: 200 
+      imageHeight: 200 
+      buttons:             
+        - name: Chess.com
+          url: "https://www.chess.com/member/maximusphys"
+        - name: Goodreads
+          url: "https://goodreads.com/maxwx2002"
+        - name: Linkedin
+          url: "https://www.linkedin.com/in/max-sokolova-728753228"
+
+
+
+menu:
+  main:
+    - identifier: about 
+      name: About 
+      url: /about/
+      weight: 10 
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 20
+    - identifier: schedule
+      name: Schedule
+      url: /schedule/
+      weight: 30
+
