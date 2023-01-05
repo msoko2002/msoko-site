@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: "https://msoko2002.netlify.app/"
 languageCode: en-us
 title: Max's Website  
 theme: "PaperMod"
